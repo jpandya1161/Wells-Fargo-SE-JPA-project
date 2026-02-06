@@ -14,7 +14,7 @@ I implemented a four-tier hierarchical data model using **Jakarta Persistence (J
 * **Security**: Linked to a Portfolio via a `Many-to-One` relationship, allowing a portfolio to hold multiple financial assets.
 
 ### Key Features Included:
-- **Relational Mapping**: Utilized `@ManyToOne`, `@OneToOne`, and `@JoinColumn` for strict database constraints.
+- **Relational Mapping**: Utilized `@ManyToOne` and `@JoinColumn` for strict database constraints.
 - **Immutability**: Implemented `updatable = false` on creation and purchase dates to ensure historical data integrity.
 - **Modern Java Time API**: Used `LocalDate` for all date-based fields to ensure precision and compatibility.
 - **Data Encapsulation**: Followed Java best practices with protected constructors for JPA and clean getters/setters.
