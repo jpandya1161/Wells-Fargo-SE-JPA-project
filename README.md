@@ -18,3 +18,5 @@ I implemented a four-tier hierarchical data model using **Jakarta Persistence (J
 - **Immutability**: Implemented `updatable = false` on creation and purchase dates to ensure historical data integrity.
 - **Modern Java Time API**: Used `LocalDate` for all date-based fields to ensure precision and compatibility.
 - **Data Encapsulation**: Followed Java best practices with protected constructors for JPA and clean getters/setters.
+
+![Wells Fargo ERD](https://github.com/user-attachments/assets/1fe23606-d0a8-451f-816a-98b31d4883e3)
