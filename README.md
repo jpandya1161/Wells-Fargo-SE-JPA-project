@@ -10,7 +10,7 @@ I implemented a four-tier hierarchical data model using **Jakarta Persistence (J
 
 * **Advisor**: The primary entity representing the financial counselor.
 * **Client**: Linked to an Advisor via a `Many-to-One` relationship.
-* **Portfolio**: Linked to a Client via a `One-to-One` relationship to ensure data integrity (one portfolio per client).
+* **Portfolio**: Linked to a Client via a `Many-to-One` relationship.
 * **Security**: Linked to a Portfolio via a `Many-to-One` relationship, allowing a portfolio to hold multiple financial assets.
 
 ### Key Features Included:
